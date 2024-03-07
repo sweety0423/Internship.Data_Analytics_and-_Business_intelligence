@@ -1,0 +1,34 @@
+From the given dataset of employees in CSV format (EmployeeData.csv), perform the following operations using an electronic spreadhseet
+
+1. Open the dataset in electronic spreadsheet
+2. Name the worksheet as Master
+3. Show the date in the format dd-mmm-yyyy e.g. 12-Feb-2022 along with new column as Age showing age of employee
+4. Create a new sheet as Salary-Mar-2024 having following columns where Name and Basic will be read from the Master sheet when we type an Employee ID
+   Employee ID, Name, Basic, DA, HRA, PF, Gross Salary, Net Salary
+5. Under the column DA, calculate the DA based on following Rules
+   90% of basic for basic>=50000
+   80% of basic for basic>=40000
+   70% of basicc for basic>30000
+   60% for others 
+6. Calculate the HRA as 45% of basic
+7. Calculate PF as 12% of basic
+8. Calculate Gross Salary as Basic+DA+HRA
+9. Calculate the Net Salary as Gross Salary - PF
+10. Create a new worksheet as Analysis
+11. Show the following insights
+    (a) Total Salary paid to the employees
+    (b) Highest Salary paid to the employees
+    (c) Lowest Salary paid to the employees
+    (d) Average Salary paid to the employees
+    (e) Show the total Salary Paid department using Pivot Table
+12. Show all employees based on criteria for given values in the columns using Advance Filter
+    Employee ID, Department, Designation, Salary, Age
+    like
+    (a) Show Employee Records having Employee ID 1026
+    (b) Show Employee Records that belongs to HR department having designation as HR Consultant
+    (c) Show Employee Records that are 40+ and salary>=40000
+13. Show the pie chart showing salary department wise using Pivot Table
+14. Show the bar chart showing salary department wise and designation wise using Pivot Table
+15. Show 10 employees having highest salary using Pivot Table
+16. Show 10 employees having lowest salary using Pivot Table
+
